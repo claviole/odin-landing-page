@@ -1,0 +1,59 @@
+/* Style Sheet*/
+
+
+body{
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: serif;
+    padding: 0;
+    min-height: 100vh;
+}
+.descriptionofwork{
+    background-color: #C4A484;
+
+}
+.rcornersone{
+    height: 100;
+    width: 100;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+   
+}
+.header{
+    background: #C4A484;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 72px;
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.footer{
+    color: grey;
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
