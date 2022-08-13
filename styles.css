@@ -9,21 +9,84 @@ body{
     font-family: serif;
     padding: 0;
     min-height: 100vh;
+    justify-content: space-between;
 }
 .descriptionofwork{
     background-color: #C4A484;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.examplesofwork{
+    background:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.quote{
+    background: lightpink;
+    color: #1f2947;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.booktoday{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+.container{
+    background:lightpink;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.roundcornersone{
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+    background: lightpink;
+    padding: 5px;
+
+
 
 }
-.rcornersone{
-    height: 100;
-    width: 100;
+.bottom{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.roundcornerstwo{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    background: #C4A484;
+    padding: 5px;
 
 }
-img{
-    height: 200px;
-    width: 200px;
-   
+.button{
+    border: none;
+    background: white;
+    color: black
+    border-radius: 8px;
+    padding: 8px 24px;
 }
+
 .header{
     background: #C4A484;
     display: flex;
@@ -34,8 +97,10 @@ img{
     padding: 0 16px;
     font-size: 16px;
     font-weight: 900;
+    margin-bottom: none;
 }
 .footer{
+    background: white;
     color: grey;
     display: flex;
     height: 72px;
@@ -54,6 +119,10 @@ ul{
 }
 a{
     text-decoration: none;
+    color: lightpink;
+    
+}
+.left{
     color: white;
     
 }
